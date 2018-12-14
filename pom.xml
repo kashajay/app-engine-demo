@@ -60,6 +60,9 @@
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine.maven.plugin}</version>
+            <configuration>
+                    <project>sample-app-225320</project>
+          </configuration>    
       </plugin>
 <!-- END plugin -->
     </plugins>
